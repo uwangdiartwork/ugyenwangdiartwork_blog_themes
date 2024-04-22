@@ -1,0 +1,42 @@
+<html lang='en'>
+<head>
+<meta charset="UTF-8"/>
+<title>About Me</title>
+
+<style>
+
+.float-img {
+float: left; 
+margin-right: 10px; 
+margin-bottom:5px; 
+border: solid blue 1px; 
+padding: 2px
+}
+
+</style>
+
+
+</head>
+<body>
+<h1>
+My Biodata
+</h1>
+<img src="https://res.cloudinary.com/deipk8hjl/image/upload/v1711446005/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/Logo%20and%20Profile%20Images/profile-img_fvxzzl.jpg
+" width="280" height="280" alt="about me" title="aligning image and text." 
+class="float-img"/>
+
+ <p class="lead"><b>Introduction:</b> I am Ugyen Wangdi from Sako Village, under Thrimshing Gewog, Trashigang District, East Bhutan. Thungkhar Primary School under Thrimshing Gewog is the place of my primary education in late 1960s</p>
+
+                    <p class="lead">
+                     <b>Academic:</b> I am a B.Com graduate from Sherubtse College, Kanglung in May 1986. I matriculated from JigmeSherubling High School, Khaling where I pursued my Class VIII to X education from year 1978 to 1980
+                    </p>
+                    <p class="lead">
+                      <b>Profession:</b> I am a retired banker with 24 years of service in Bank of Bhutan Limited (BOBL) from Sept, 1987 to March, 2012 and Chief Internal Auditor with 6 years of contract service in State Trading Corporation of Bhutan Ltd (STCBL) from 24 Mar 2015 to 23 Mar 2021.</p>
+                      
+                      <p class="lead">
+                        <b>Present Status:</b> I am now a self employed man, currently pursuing my passion in art.</p>
+                 
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<style>
+.image-gallery{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;flex-wrap:wrap}.image-td{margin-bottom:3px;background:#FFF;border-radius:3px;display:inline-block;animation:scaler 1s ease-out 1 alternate}.image-tdInner{padding:0;text-align:center;background:transparent}.image-tdInner img{width:100%}@keyframes scaler{0%{transform:scale(0)}100%{transform:scale(1)}}@media only screen and (max-width : 600px){.image-td{margin:2px 0;width:100%}}@media only screen and (min-width : 601px)and (max-width : 900px){.image-td{margin:5px;width:calc(50% - 10px)}}@media only screen and (min-width: 900px){.image-td{margin:5px;width:calc(25% - 10px)}}.image-td .image-tdInner:hover{transform:scale(1.05);animation:hoverAnimOP 0.5s linear 1 alternate}@keyframes hoverAnimOP{0%{transform:scale(1)}100%{transform:scale(1.05)}}</style>
+<div class='image-gallery'>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445685/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/3_elks_dpvgnn.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445685/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/3_elks_dpvgnn.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445687/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/cow_herd_rgmvue.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445687/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/cow_herd_rgmvue.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445690/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/Eagle_wbzk9k.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445690/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/Eagle_wbzk9k.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445691/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/deer_vxd1bs.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445691/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/deer_vxd1bs.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445694/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/elk_crossing_river_z4xdei.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445694/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/elk_crossing_river_z4xdei.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445701/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/elk_ut72ce.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445701/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/elk_ut72ce.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445702/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/Horse_and_dog_dw6gh5.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445702/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/Horse_and_dog_dw6gh5.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445708/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/IMG_1382_lfnjzz.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445708/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/IMG_1382_lfnjzz.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445710/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/IMG_1371_lp21sj.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445710/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/IMG_1371_lp21sj.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445712/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/layap_painting_ewmzip.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445712/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/layap_painting_ewmzip.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445715/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/monk_1_c73x3k.jpg'>
+		<img src='https://res.cloudinary.com/deipk8hjl/image/upload/v1711445715/Blogger%20Homepage/Landscape/Portrait/Wildlife%20and%20Others/monk_1_c73x3k.jpg' />
+		</a>
+		</div>
+	</div>
+	<div class='image-td'>
+		<div class='image-tdInner'>
+		<a href=''>
+		<img src='' />
+		</a>
+		</div>
+	</div>
+</div>

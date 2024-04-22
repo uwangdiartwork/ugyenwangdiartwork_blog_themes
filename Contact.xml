@@ -1,0 +1,313 @@
+<style>
+/****** Contact Form Designed by TwistBlogg.Com ******/ 
+div#twist_blogger_cntct_form {
+    padding: 50px 0px;
+    border-radius: 2px;
+    color: #1D1D1D;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    background-color: #404040;
+    font-family: sans-serif;
+}
+div#twist_blogger_cntct_form .wrap-me {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 20px;
+    background-color: #F3F3F3;
+    max-width: 440px;
+    width: 100% !important;
+    border-top: 65px solid #FF0000;
+    box-sizing: border-box;
+}
+div#twist_blogger_cntct_form .wrap-me:before {
+    content: '\f0e0';
+    position: absolute;
+    font-family: FontAwesome;
+    font-weight: normal;
+    margin-top: -88px;
+    margin-left: -23px;
+    left: 50%;
+    display: inline-block;
+    font-size: 28px;
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    line-height: 49px;
+}
+input#ContactForm1_contact-form-name, #ContactForm1_contact-form-email, #ContactForm1_contact-form-email:hover, #ContactForm1_contact-form-email:active {
+    padding: 5px;
+    margin-top: 4px !important;
+    box-shadow: none!Important;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #D2D2D2;
+    line-height: 1em;
+    min-height: 31px;
+    background: #FEFEFE;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    border-radius: 0px;
+}
+.contact-form-email-message, .contact-form-email-message:active, .contact-form-email-message:hover {
+    padding: 5px;
+    margin-top: 4px !important;
+    box-shadow: none!Important;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #D2D2D2;
+    line-height: 1em;
+    min-height: 80px;
+    background: #FEFEFE;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+/***** Focus *****/
+#ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus {
+    outline: none;
+    background: #FFFFFF !important;
+    color: #444;
+    border-color: rgb(236, 235, 235) !important;
+    box-shadow: 0 0 5px rgba(241, 241, 241, 0.7) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+/**** Submit button style ****/
+.contact-form-button-submit:hover {
+    color: #FFFFFF;
+    background: #0083FF !important;
+}
+.contact-form-button-submit {
+    background: #19B3EA;
+    display: table;
+    font-size: 17px;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+    height: 32px;
+    line-height: 0.5em;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    outline: none!important;
+    color: #FFFFFF;
+    border: 1px solid #fff !important;
+    text-align: center;
+    padding: 0px 0px 0px 15px;
+    text-transform: capitalize;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+}
+/**** Submit button on Focus ****/
+.contact-form-button-submit:focus, .contact-form-button-submit.focus {
+  border-color: #FFFFFF;
+  box-shadow: none !important;
+}
+/**** Error message ****/ 
+.contact-form-error-message-with-border .contact-form-success-message {
+  background: #f9edbe;
+  border: 1px solid #f0c36d;
+  bottom: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  line-height: 19px;
+  margin-left: 0;
+  opacity: 1;
+  position: static;
+  text-align: center;
+}
+/**** Submit Button On Success Message ****/ 
+.contact-form-button-submit.disabled, .contact-form-button-submit.disabled:hover, .contact-form-button-submit.disabled:active {
+    opacity: 0.9;
+}
+/****** Success Message *****/
+.contact-form-error-message-with-border {
+    background: #000000;
+    border: 1px solid #5A5A5A;
+    bottom: 0;
+    box-shadow: none;
+    color: #FDFDFD;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-left: 0;
+    opacity: 1;
+    position: static;
+    text-align: center;
+    height: 35px;
+    margin-top: 45px;
+}
+.contact-form-cross {
+    height: 14px;
+    margin: 5px;
+    vertical-align: -8.5%;
+    float: right;
+    width: 14px;
+    border-radius: 50px;
+    border: 0 !important;
+    cursor: pointer;
+}
+.contact-form-success-message-with-border {
+    font-weight: normal;
+    background-color: #000;
+    border: 1px solid #FFF;
+    color: #FFF;
+    line-height: 35px;
+    margin-left: 0;
+    font-size: 13px;
+    opacity: 1;
+    position: static;
+    text-align: center;
+    height: 35px;
+    margin-top: 45px;
+}
+/* Extra Stuff */
+div#twist_blogger_cntct_form span.name-bg {
+    background-color: #E8F2FF;
+ }
+div#twist_blogger_cntct_form span.email-bg {
+    background-color: #FFE8E8;
+}
+div#twist_blogger_cntct_form span.name-bg, div#twist_blogger_cntct_form span.email-bg {
+    display: inline-block;
+    max-width: 300px;
+    line-height: 21px;
+    width: 100%;
+    color: #696969;
+    padding: 3px 5px;
+    margin: 0px 0px 4px;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #E4E0E0;
+    padding-left: 39px;
+}
+div#twist_blogger_cntct_form span.name-bg:before {
+    content: '\f007';
+    background-color: #60A2FF;
+ }
+div#twist_blogger_cntct_form span.email-bg:before {
+    content: '\f1fa ';
+    background-color: #FF530B;
+}
+div#twist_blogger_cntct_form span.name-bg:before, div#twist_blogger_cntct_form span.email-bg:before, div#twist_blogger_cntct_form span.message-bg:before {
+    font-family: FontAwesome;
+    text-align: center;
+    margin: -4px 0 0px 0px;
+    font-weight: normal;
+    padding: 0;
+    line-height: 27px;
+    width: 28px;
+    height: 28px;
+    display: table;
+    position: absolute;
+    margin-left: -40px !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 0 !important;
+    color: #FFFFFF;
+}
+div#twist_blogger_cntct_form span.message-bg {
+    background-color: #EBFFE8;
+    display: inline-block;
+    max-width: 400px;
+    line-height: 21px;
+    width: 100%;
+    color: #696969;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #E4E0E0;
+    padding-left: 39px;
+    margin: 0px 0px 4px;
+}
+div#twist_blogger_cntct_form span.message-bg:before {
+    content: '\f0e0';
+    background-color: #20CC00;
+}
+div#twist_blogger_cntct_form span.send-bg {
+    height: 32px;
+    display: inline-block;
+    float: left;
+    max-width: 45%;
+    width: 100%;
+    margin-top: 15px;
+    transition: all 0.4s ease-in-out !important;
+}
+div#twist_blogger_cntct_form span.send-bg:before {
+    content: '\f1d8';
+ }
+div#twist_blogger_cntct_form span.send-bg:before, div#twist_blogger_cntct_form span.clear-bg:before {
+    font-family: FontAwesome;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    background-color: #000;
+    padding: 0;
+    line-height: 27px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #fff;
+    border-right: 0 !important;
+    color: #FFFFFF;
+}
+div#twist_blogger_cntct_form span.clear-bg {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    max-width: 45%;
+    width: 100%;
+}
+div#twist_blogger_cntct_form span.clear-bg:before {
+    content: '\f021';
+ }
+
+input.contact-form-button.contact-form-button-submit.clear-button:hover {
+    background-color: #E83434 !important;
+}
+div#twist_blogger_cntct_form .clear-button {
+    color: #FFFFFF;
+    border: 1px solid #FFF !important;
+    background-color: #FF2C2C;
+    float: right;
+    display: table;
+    height: 32px;
+}
+</style>
+
+
+<div id="twist_blogger_cntct_form">
+<div class="wrap-me">
+<form name="contact-form">
+<span class='name-bg'>Your Name</span><br />
+<input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" placeholder="Enter your name here..." size="30" type="text" value="" /><br />
+<br />
+<span class='email-bg'>Your Email*</span><br />
+<input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" placeholder="Enter your email here..." size="30" type="text" value="" /><br />
+<br />
+<span class='message-bg'>Your Message*</span><br />
+<textarea class="contact-form-email-message" cols="25" id="ContactForm1_contact-form-email-message" name="email-message" placeholder="Write your message here..." rows="5"></textarea><br />
+<span class='send-bg'><input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="button" value="Send" /></span>
+<span class='clear-bg'><input class='contact-form-button contact-form-button-submit clear-button' type='reset' value='Clear'/></span>
+<br />
+<div style="max-width: 100%; text-align: center; width: 100%;">
+<div class="contact-form-error-message" id="ContactForm1_contact-form-error-message">
+</div>
+<div class="contact-form-success-message" id="ContactForm1_contact-form-success-message">
+</div>
+</div>
+</form>
+<br />
+</div>
+</div>
